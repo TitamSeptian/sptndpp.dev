@@ -8,7 +8,34 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-
+    extend: {
+      colors: {
+        primary: "#6178F1",
+        youtube: "#FF0000",
+        twitter: "#1DA1F2",
+        discord: "#5865F2",
+        github: "#181717",
+      },
+      fontFamily: {
+        sans: ["var(--font-sora)"],
+      },
+      backgroundImage: {
+        "light-pattern": "url('/light-pattern.svg')",
+        "dark-pattern": "url('/dark-pattern.svg')",
+      },
+      backgroundSize: {
+        auto: "auto",
+        cover: "cover",
+        contain: "contain",
+        verySmall: "0.5rem",
+        3: "3rem",
+        2: "2rem",
+        1: "1rem",
+      },
+      boxShadow: {
+        grid: "0px 4px 10px 0px rgba(0, 0, 0, 0.05);",
+      },
+    },
   },
   plugins: [],
 }
