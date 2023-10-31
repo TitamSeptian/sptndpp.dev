@@ -58,7 +58,6 @@ const About = () => {
                     <h1 className="text-md font-normal px-4 leading-loose overflow-scroll">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem illum, iusto? Ab aliquid aperiam atque commodi deleniti dicta, dolore ea eligendi explicabo impedit magnam maiores natus nemo ratione, sed voluptatibus!
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem illum, iusto? Ab aliquid aperiam atque commodi deleniti dicta, dolore ea eligendi explicabo impedit magnam maiores natus nemo ratione, sed voluptatibus!
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem illum, iusto? Ab aliquid aperiam atque commodi deleniti dicta, dolore ea eligendi explicabo impedit magnam maiores natus nemo ratione, sed voluptatibus!
                     </h1>
                 </div>
             </GridItem>
